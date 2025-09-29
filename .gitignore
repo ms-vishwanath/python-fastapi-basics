@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Byte-compiled / cache
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# FastAPI specific
+*.db
+*.sqlite
+instance/
+*.pid
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Logs
+*.log
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# Local environment
+.env.local
+.env.*.local
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Coverage reports
+coverage.xml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Cache
+.cache/
+
+# uvicorn reload artifacts
+*.reload
